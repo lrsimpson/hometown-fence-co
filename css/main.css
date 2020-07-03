@@ -275,6 +275,51 @@ main {
 
 }
 
+/*** About Page ***/
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 10px;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about-description {
+  width: 100%;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.map-container figure {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -417,16 +462,16 @@ footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  flex-direction: row wrap;
 }
 
 footer .contact {
-  padding-right: 110px;
+  padding-right: 60px;
   margin-bottom: 0;
 }
 
 footer .social {
-  padding-left: 100px;
+  padding-left: 60px;
 
 }
 
@@ -448,6 +493,13 @@ footer h4 {
 footer p {
     line-height: 1.285;
     font-size: 1.25em;
+}
+
+/*** About Page ***/
+
+.map-container figure {
+  padding-bottom: 50%;
+}
 }
 
 @media only screen and (min-width: 1200px){
@@ -476,6 +528,25 @@ footer .contact {
 
 footer .social {
   padding-left: 250px;
+}
+
+/*** About Page ***/
+
+.about .content-wrapper {
+  flex-flow: row nowrap;
+}
+
+.about-description,
+.about-img {
+  width: 49%;
+}
+
+.about-description {
+  padding-right: 20px;
+}
+
+.map-container figure {
+  padding-bottom: 25%;
 }
 
 }
