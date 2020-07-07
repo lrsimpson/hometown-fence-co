@@ -320,6 +320,42 @@ main {
   width: 100%;
 }
 
+/*** Services Page Styles ***/
+
+.services .content-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.service-title .content-wrapper {
+  width: 90%;
+  margin: 15px;
+}
+
+.service-title {
+  text-align: center;
+}
+.service-offered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.services-list figure img {
+  width: 100%;
+}
+
+.services h4 {
+  text-align: center;
+}
+
+.services p {
+  text-align: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -500,6 +536,26 @@ footer p {
 .map-container figure {
   padding-bottom: 50%;
 }
+
+
+/*** Services Page Styles ***/
+
+.service-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-list figure {
+  width: 85%;
+}
+
 }
 
 @media only screen and (min-width: 1200px){
@@ -547,6 +603,28 @@ footer .social {
 
 .map-container figure {
   padding-bottom: 25%;
+}
+
+/*** Services Page ***/
+
+.service-title .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap; 
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+
+}
+
+.service-offered {
+  width: 33%;
+  padding: 15px;
 }
 
 }
