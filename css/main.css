@@ -301,6 +301,10 @@ main {
   width: 100%;
 }
 
+.about-description p{
+  text-align: center;
+}
+
 .about-img {
   width: 100%;
 }
@@ -356,6 +360,83 @@ main {
 .services p {
   text-align: center;
 }
+
+.lawncare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.lawncare .content-wrapper {
+  border-top: 1px solid white;
+}
+
+.lawncare-img {
+  width: 85%;
+  padding-top: 75px;
+}
+
+.lawncare-description h4, .lawncare-description p {
+  text-align: center;
+}
+
+.lawncare-description a{
+  color: white;
+}
+
+
+/*** Materials Styles ***/
+
+.materials .content-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.material-title .content-wrapper {
+  width: 90%;
+  margin: 15px;
+}
+
+.material-title {
+  text-align: center;
+}
+.materials-offered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.materials-list figure img {
+  width: 100%;
+}
+
+.materials h4 {
+  text-align: center;
+}
+
+.materials p {
+  text-align: center;
+}
+
+.popular-material p {
+  text-align: center;
+}
+
+.supplier-info p {
+  text-align: center;
+}
+
+.supplier-info a {
+  color: white;
+
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -611,7 +692,7 @@ footer .social {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column wrap; 
+  flex-flow: column wrap;
 }
 
 .services-list {
@@ -627,6 +708,37 @@ footer .social {
   padding: 15px;
 }
 
+.lawncare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.lawncare .content-wrapper {
+  border-top: 1px solid white;
+}
+
+.lawncare-img {
+  width: 40%;
+  padding-top: 75px;
+}
+
+.lawncare-img figure {
+  width: 85%;
+}
+
+.lawncare-description {
+  width: 40%;
+}
+
+.lawncare-description a{
+  color: white;
+}
+
+.lawncare-description h4 {
+  font-size: 2em;
+}
 }
 
 /* ==========================================================================
