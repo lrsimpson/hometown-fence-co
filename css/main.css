@@ -396,7 +396,8 @@ main {
   margin: 15px;
 }
 
-.material-title .content-wrapper {
+.material-title .content-wrapper,
+.materials-disclaimer .content-wrapper {
   width: 90%;
   margin: 15px;
 }
@@ -423,6 +424,17 @@ main {
   text-align: center;
 }
 
+.materials-disclaimer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.materials-disclaimer .content-wrapper {
+  border-top: 1px solid white;
+  margin-left: 15px;
+}
+
 .popular-material p {
   text-align: center;
 }
@@ -434,6 +446,34 @@ main {
 .supplier-info a {
   color: white;
 
+}
+
+/*** Get a Quote Styles***/
+
+/*same as gallery styles until content received*/
+
+/*** Gallery Styles ***/
+
+.incomplete-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.incomplete-title .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.incomplete-title span {
+  font-style: italic;
+  font-size: .75em;
+}
+
+.incomplete-title i {
+  color: white;
 }
 
 
@@ -618,6 +658,10 @@ footer p {
   padding-bottom: 50%;
 }
 
+.about-img figure {
+  padding-bottom: 15px;
+}
+
 
 /*** Services Page Styles ***/
 
@@ -636,6 +680,21 @@ footer p {
 .services-list figure {
   width: 85%;
 }
+
+/*** Materials Page ***/
+
+.material-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.materials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 }
 
@@ -739,6 +798,22 @@ footer .social {
 .lawncare-description h4 {
   font-size: 2em;
 }
+
+/*** Materials Page ***/
+
+.materials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+
+}
+
+.materials-offered {
+  width: 33%;
+  padding: 15px;
+}
+
 }
 
 /* ==========================================================================
