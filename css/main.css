@@ -454,28 +454,32 @@ main {
 
 /*** Gallery Styles ***/
 
-.incomplete-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.incomplete-title .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+.gallery-img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+  }
 
-.incomplete-title span {
-  font-style: italic;
-  font-size: .75em;
-}
+  .gallery-img:hover {
+    border: 1px solid #777;
+  }
 
-.incomplete-title i {
-  color: white;
-}
+  .gallery-img img {
+    width: 100%;
+    height: auto;
+  }
 
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+.buffer {
+  padding: 100px;
+  text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
